@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/seawave.jpg);
+    height: 100vh;
+}
+body{
+
+    background-color: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(08px);
+    height: 100vh;
+}
+.lists {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.bio {
+    font-size: 80px !important;
+    text-decoration: none !important;
+    color: white;
+
+}
+
+.lists li {
+
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.lists li:not(.bio) a {
+    text-decoration: line-through;
+    color: rgb(255, 255, 255);
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    border: 2px solid rgba(255, 255, 255, 0.268);
+    height: 200px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, .38);
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    height: 79vh;
+}
+
+.box1,
+.box3 {
+    position: absolute;
+    top: 100px;
+}
+
+.box2 {
+    left: 28%;
+
+}
+
+.box1 {
+    left: 3%;
+}
+
+.box3 {
+    left: 53%;
+}
+
+.box4 {
+    left: 78%;
+}
+
+.box2,
+.box4 {
+    position: absolute;
+    bottom: 100px;
+
+}
+
+.container h1,
+.container h2 {
+    text-indent: 30px;
+    font-size: 18px;
+    color: white;
+    margin: 25px;
+    font-weight: 100;
+
+}
