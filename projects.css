@@ -132,3 +132,24 @@ body {
     font-weight: 100;
 
 }
+
+.box1 p,
+.box2 p,
+.box3 p,
+.box4 p {
+    color: white;
+    height: 70px;
+    text-indent: 25px;
+    width: 200px;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    line-height: 22.3px;
+    font-weight: 100;
+}
+.box1 p::first-letter,
+.box2 p::first-letter,
+.box3 p::first-letter,
+.box4 p::first-letter{
+font-size: 42px;
+}
