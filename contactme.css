@@ -81,8 +81,8 @@ body {
     border-radius: 50%;
     object-fit: cover;
     object-position: bottom;
-    border: 3px solid red;
-    opacity: 0.05;
+    border: 3px solid rgb(255, 255, 255);
+    opacity: 0.5;
     transform: translateY(70px);
 
 }
